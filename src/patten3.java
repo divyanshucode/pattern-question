@@ -10,7 +10,7 @@ public class patten3 {
 //            *
     static void pattern3(int n){
         for(int row = 1 ; row <= n ; row++){
-            for(int col = 5;col>=row;col--){
+            for(int col = 1;col<=n-row+1;col++){
                 System.out.print("* ");
             }
             System.out.println();
